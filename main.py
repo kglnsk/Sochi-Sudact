@@ -24,7 +24,7 @@ from business_logic import Act,Application,Bill,Contract,Invoice,Determination,A
 
 
 client = openai.OpenAI(
-    base_url = "localhost:8000",
+    base_url = "http://localhost:8000/v1/models",
     api_key = None,
 )
     
